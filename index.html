@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JS Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="FirstCanvas.png">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+</head>
+<body>
+    <div class="container">
+        <form>
+            <input type="text" id="display" value = '0' disabled>
+        </form>
+        <div class="row">
+            <div class="option clear">
+                <input type="button"  id="clear" value = 'AC'>
+            </div>
+            <div class="option eraser">
+                <input type="button" id="eraser" value = "«" data-key="8">
+            </div>
+        </div>
+        <div class="row">
+            <div class="option">
+                <input id="seven" type="button" value="7" data-key="103">
+            </div>
+            <div class="option">
+                <input id="eight" type="button" value="8" data-key="104">
+            </div>
+            <div class="option">
+                <input id="nine" type="button" value="9" data-key="105">
+            </div>
+            <div class="option">
+                <input id="divide" type="button" value="/" data-key="111">
+            </div>
+        </div>
+        <div class="row">
+            <div class="option">
+                <input id="four" type="button" value="4" data-key="100">
+            </div>
+            <div class="option">
+                <input id="five" type="button" value="5" data-key="101">
+            </div>
+            <div class="option">
+                <input id="six" type="button" value="6" data-key="102">
+            </div>
+            <div class="option">
+                <input id="multiply" type="button" value="*" data-key="106">
+            </div>
+        </div>
+        <div class="row">
+            <div class="option">
+                <input  id="one" type="button" value="1" data-key="97">
+            </div>
+            <div class="option">
+                <input id="two" type="button" value="2" data-key="98">
+            </div>
+            <div class="option">
+                <input id="three" type="button" value="3" data-key="99">
+            </div>
+            <div class="option">
+                <input  id="subtract" type="button" value="-" data-key="109">
+            </div>
+        </div>
+        <div class="row">
+            <div class="option">
+                <input id="decimal" type="button" value="." data-key="110">
+            </div>
+            <div class="option">
+                <input id="zero" type="button" value="0" data-key="96">
+            </div>
+            <div class="option">
+                <input id="equals" type="button" value="=" data-key="13">
+            </div>
+            <div class="option">
+                <input  id="add" type="button" value="+" data-key="107">
+            </div>
+        </div>
+    </div>    
+    <script src="main.js"></script>
+</body>
+</html>

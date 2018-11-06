@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+*{
+    padding:0;
+    margin: 0;
+}
+body{
+    font-size:16px;
+    background: rgb(128, 14, 14); 
+    
+
+}
+.container{
+    margin: 1vw auto;
+    width: 80%;
+    background: rgba(250, 250, 250, 0.2);
+    border:2px solid #1c1c1c;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;   
+    max-width: 360px;
+}
+form{
+    margin-bottom: 2rem;
+}
+ #display{
+     height: 5rem;
+     border-radius: 1rem;
+     border:none;
+     width: 15rem;
+     text-align: right;
+     font-size: 3rem;
+ }
+.row{
+    display: flex;
+    margin: .2rem 0;
+}
+.option{
+    margin: 0 .15rem;
+    box-sizing: border-box;
+}
+
+.option input{
+    font-size: 3rem;
+    width: 3.5rem;
+    padding: .4rem;
+    border:1px solid black;
+    background: #1c1c1c;
+    color:white;
+    transition: all .2s ease;
+    font-family: 'Roboto Slab', serif;
+}
+.clear input{
+    width:9rem;
+    background: rgb(255, 42, 35)
+}
+.eraser input{
+    width:6rem;
+}
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero, #decimal{
+    background: #531818;
+}
+.playing {
+    transform: scale(1.05);
+    border-color: #c0c0c0;
+    box-shadow: 0 0 1rem #c0c0c0;
+}
